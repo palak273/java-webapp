@@ -17,7 +17,7 @@ public class FormController {
 
     @PostMapping("/product")
     public String productSubmit(@ModelAttribute Product product) {
-        return "product";
+        return "result";
     }
 }
 
